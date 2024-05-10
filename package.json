@@ -26,5 +26,16 @@
     "tsup": "^8.0.2",
     "typescript": "^5.4.3",
     "vite": "^5.2.6"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format:ts": "turbo run format:ts",
+    "lint:fix": "turbo run lint:fix",
+    "types": "turbo run types",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "test:coverage": "turbo run test:coverage"
   }
 }

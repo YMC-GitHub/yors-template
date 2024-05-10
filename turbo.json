@@ -1,0 +1,23 @@
+{
+  "pipeline": {
+    "build": {
+      "outputs": [
+        "dist/**"
+      ]
+    },
+    "dev": {
+      "cache": false
+    },
+    "lint": {},
+    "format:ts": {},
+    "lint:fix": {},
+    "types": {},
+    "test": {},
+    "test:watch": {
+      "cache": false
+    },
+    "test:coverage": {
+      "cache": false
+    }
+  }
+}
