@@ -13,14 +13,14 @@
   "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
   "license": "MIT",
   "private": true,
-  "main": "./dist/main.umd.cjs",
+  "main": "./dist/main.cjs",
   "module": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
       "import": "./dist/main.js",
-      "require": "./dist/main.umd.cjs"
+      "require": "./dist/main.cjs"
     },
     "./*": "./*"
   },
