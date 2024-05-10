@@ -1,0 +1,64 @@
+{
+  "name": "@yors/nano",
+  "version": "0.1.0",
+  "description": "a package name nano",
+  "keywords": [
+    "artist",
+    "nano",
+    "mono"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
+  "license": "MIT",
+  "private": true,
+  "main": "./dist/main.umd.cjs",
+  "module": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.js",
+      "require": "./dist/main.umd.cjs"
+    },
+    "./*": "./*"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "types": "tsc",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint lib/**/*ts",
+    "lint:fix": "eslint lib/**/*ts --fix",
+    "format:ts": "prettier lib/**/*.ts --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymc-github/yors.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/ymc-github/yors/issues"
+  },
+  "homepage": "https://github.com/ymc-github/yors/blob/main/packages/nano#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "@vitest/coverage-v8": "^1.4.0",
+    "@yors/vite-plugin-make-type": "^1.1.0",
+    "@yors/vite-plugin-mini-js": "^1.1.0",
+    "@yors/vite-plugin-util-nano": "^1.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-plugin-eslint": "^1.8.1",
+    "vitest": "^1.4.0"
+  }
+}
