@@ -1,4 +1,22 @@
 {
+  "name": "@yors/yors",
+  "version": "0.1.0",
+  "description": "a project name yors",
+  "keywords": [
+    "artist",
+    "yors",
+    "mono"
+  ],
+  "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "url": "git+https://github.com/ymc-github/yors.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/ymc-github/yors/issues"
+  },
+  "homepage": "https://github.com/ymc-github/yors/blob/main/#readme",
   "workspaces": [
     "packages/*"
   ]
