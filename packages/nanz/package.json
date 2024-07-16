@@ -12,7 +12,7 @@
   ],
   "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
