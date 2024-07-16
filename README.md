@@ -1,7 +1,7 @@
 <div align="center">
   <h1>yors-template</h1>
   <p>
-    <strong>🤖 a template repo to setup yors node packages easy.</strong>
+    <strong>🤖 a template repo to setup yors node packages easily.</strong>
   </p>
 
 </div>
